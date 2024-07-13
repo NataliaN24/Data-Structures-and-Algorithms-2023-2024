@@ -39,9 +39,10 @@ failedStudents(T);
 
 //or better and simpler solution ----------------------------------------------------------------------------------------------------------------------------
 
-#include<map>
+#include<map> //because the output will be already sorted
 
-int main() {
+int main()
+{
     int num;
     int howManyLetters;
     int howManyFailed;
