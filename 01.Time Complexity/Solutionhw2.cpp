@@ -36,3 +36,41 @@ cin>>T;
 failedStudents(T);
   return 0;
 }
+
+//or better and simpler solution ----------------------------------------------------------------------------------------------------------------------------
+
+#include<map>
+
+int main() {
+    int num;
+    int howManyLetters;
+    int howManyFailed;
+    string inputStr;
+    string outputStr;
+    map<char, int> count;
+    
+    cin >> num;
+
+    for (int i = 0; i < num; i++) {
+
+        cin >> howManyLetters;
+        cin >> howManyFailed;
+        cin >> inputStr;
+
+        for (char ch : inputStr) {
+            if (isupper(ch)) {
+                count[ch]++;
+            }
+        }
+        for (auto& p : count) {
+            if (p.second >= howManyFailed) {
+                outputStr += p.first;
+            }
+        }
+        cout << outputStr <<" " << endl;
+        inputStr.clear();
+        outputStr.clear();
+        count.clear();
+    }
+
+}
