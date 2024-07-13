@@ -3,28 +3,6 @@
 #include<string>
 using namespace std;
 //first solution of homework task 1
-//the problem is in time ,it doesn't give the quick result for some cases 
-
-int symbolToWord(string word, int N, char symbol) {
-	int len = word.length();
-	string result = "";
-	int j;
-	for (int i = 0; i < N; i++) {
-		result += word[j];
-		if (j == len) {
-			j = 0;
-		}
-	}
-	int counter = 0;
-	for (int i = 0; i < N; i++) {
-		if (result[i] == symbol) {
-			counter++;
-		}
-	}
-	return counter;
-
-}
-//in order to correct the time execution I provided the next code
 
 int symbolInWord(string word, int N, char symbol)
 {
@@ -46,4 +24,45 @@ int symbolInWord(string word, int N, char symbol)
 	}
 	return counter;
 
+}
+
+//or ------------------------------------------------------------------------------------------
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include<string>
+using namespace std;
+
+
+int main() 
+{
+    string str;
+    cin >> str;
+    int num;
+    cin >> num;
+    char ch;
+    cin >> ch;
+    int counter = 0;
+
+    int length = str.length();
+    int howmany = num / length;
+    int left = num - (howmany * length);
+	
+    for (int i = 0; i < length; ++i) {
+        if (str[i] == ch) {
+            counter++;
+        }
+    }
+	
+    int allFound = counter * howmany;
+	
+    for (int i = 0; i < left; i++) {
+        if (str[i] == ch) {
+            allFound++;
+        }
+    }
+    cout << allFound;
 }
