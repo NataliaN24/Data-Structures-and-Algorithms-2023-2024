@@ -23,3 +23,35 @@ smallestDifference=min(smallestDifference,difference);     // if we dont do this
 cout<<smallestDifference<<endl;
 return 0;
 }
+
+//or sliding window------------------------------------------------------------------------------------------------------------similar to above------------------
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <climits>
+
+int main() {
+    int n, k;
+    std::cin >> n >> k;
+
+    std::vector<int> results(n);
+    for (int i = 0; i < n; ++i) {
+        std::cin >> results[i];
+    }
+
+    std::sort(results.begin(), results.end());
+
+    int minDifference = INT_MAX;
+
+    for (int i = 0; i <= n - k; ++i) {
+        int currentDifference = results[i + k - 1] - results[i];
+        if (currentDifference < minDifference) {
+            minDifference = currentDifference;
+        }
+    }
+
+    std::cout << minDifference << std::endl;
+
+    return 0;
+}
+
