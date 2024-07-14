@@ -1,8 +1,5 @@
-#include <cmath>
-#include <cstdio>
 #include <vector>
 #include <iostream>
-#include <algorithm>
 #include<string>
 #include<unordered_map>
 using namespace std;
@@ -22,16 +19,16 @@ int main(){
     } 
 }
 //-----------------------------------Second Solution---------------------------------------------------------------------------------------------------
-int main(){
-string s;
-cin>>s;
-vector<int>count(26,0);
-for(int i=0;i<s.length();i++){
-count[s[i]-'a']++;
-}
-for(int i=0;i<s.length();++i){
-if(count[s[i]-'a']==1){
-cout<<i<<" " ;
-}
-}
+int main() {
+	string s;
+	cin >> s;
+	vector<int>count(26,0);
+	for (int i = 0; i < s.length(); ++i) {
+		count[s[i]-'a']++;
+	}
+	for (int i = 0; i < s.length(); ++i) {
+		if (count[s[i]-'a'] == 1) {
+			cout << i << " ";
+		}
+	}
 }
