@@ -1,58 +1,44 @@
 #include <iostream>
 #include <queue>
 #include <iomanip>
-
 using namespace std;
 
-class Median
-{
-    priority_queue<int>maxHeap;
-    priority_queue<int, vector<int>, greater<int>>minHeap;
-public:
-    void addNum(int num)
-    {
-        if (maxHeap.empty() || num <= maxHeap.top())
-        {
-            maxHeap.push(num);
-        }
-        else
-        {
-            minHeap.push(num);
-        }
-        if (maxHeap.size() > minHeap.size() + 1)
-        {
-            minHeap.push(maxHeap.top());
-            maxHeap.pop();
-        }
-        else if (minHeap.size() > maxHeap.size() )
-        {
-            maxHeap.push(minHeap.top());
-            minHeap.pop();
-        }
+void addMedian(int num, priority_queue<int>& maxheap, priority_queue<int, vector<int>, greater<int>>& minheap) {
+    if (maxheap.empty() || num <= maxheap.top()) {
+        maxheap.push(num);
+    } else {
+        minheap.push(num);
     }
-    double findMedian()
-    {
-        if (maxHeap.size() > minHeap.size())
-        {
-            return maxHeap.top();
-        }
-        else
-        {
-            return (maxHeap.top() + minHeap.top()) / 2.0;
-        }
-    }
-};
 
-int main()
-{
+    if (maxheap.size() > minheap.size() + 1) {
+        minheap.push(maxheap.top());
+        maxheap.pop();
+    } else if (minheap.size() > maxheap.size()) {
+        maxheap.push(minheap.top());
+        minheap.pop();
+    }
+
+    double med;
+    if (maxheap.size() > minheap.size()) {
+        med = maxheap.top();
+    } else {
+        med = (maxheap.top() + minheap.top()) / 2.0;
+    }
+    cout << fixed << setprecision(1) << med << endl;
+}
+
+int main() {
     int n;
     cin >> n;
-    Median median;
-    for (int i = 0; i < n; ++i)
-    {
-        int num;
+
+    priority_queue<int> maxheap;
+    priority_queue<int, vector<int>, greater<int>> minheap;
+
+    int num;
+    for (int i = 0; i < n; i++) {
         cin >> num;
-        median.addNum(num);
-        cout << fixed << setprecision(1) << median.findMedian() << endl;
+        addMedian(num, maxheap, minheap);
     }
+
+    return 0;
 }
