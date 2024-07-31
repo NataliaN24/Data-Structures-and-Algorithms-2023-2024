@@ -68,3 +68,12 @@ Check out the implementations related to minimal spanning trees:
 
 ### 13. 🧩 [Euler and Hamiltonian Graph](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/13.Euler%20and%20Hamiltonian%20graph)
 Explore exercises and implementations related to Eulerian and Hamiltonian graphs.
+
+## 🧪 Tests
+
+- **Test 1:** [Test 1](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2001)
+- **Test 2:** [Test 2](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2002)
+- **Test 3:** [Test 3](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2003)
+- **Test 4:** [Test 4](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2004)
+- **Test 5:** [Test 5](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2005)
+- **Test 6:** [Test 6](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2006)
