@@ -1,4 +1,4 @@
---from stoyan solution
+//from stoyan solution
 #include <bits/stdc++.h>
 
 using namespace std;
