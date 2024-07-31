@@ -77,3 +77,5 @@ Explore exercises and implementations related to Eulerian and Hamiltonian graphs
 - **Test 4:** [Test 4](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2004)
 - **Test 5:** [Test 5](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2005)
 - **Test 6:** [Test 6](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Test%2006)
+
+  **Links to each of the exam :**[Exams](https://github.com/Stoyan-Zlatev/Data-Sructures-and-Algorithms/tree/main/Exams)
