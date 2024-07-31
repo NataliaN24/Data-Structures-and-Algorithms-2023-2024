@@ -1,4 +1,4 @@
---the solution is from stoyan zlatev
+//the solution is from stoyan zlatev
 #include <cmath>
 #include <cstdio>
 #include <vector>
