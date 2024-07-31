@@ -3,7 +3,7 @@
 #include <unordered_set>
 
 using namespace std;
-
+------------------------------------------------------FIRST SOLUTION------------------------------------------------------------------------------------------------
 class UnionFind {
 public:
     UnionFind(int size) : parent(size), rank(size, 0) {
@@ -72,3 +72,70 @@ int main() {
 
     return 0;
 }
+------------------------------------------------------SECOND SOLUTION------------------------------------------------------------------------------------------------
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+class Graph {
+public:
+    int vertices;
+    vector<vector<int>> adjList;
+
+    Graph(int V) : vertices(V), adjList(V) {}
+
+    void addEdge(int u, int v) {
+        adjList[u].push_back(v);
+        adjList[v].push_back(u);
+    }
+
+    int countDistricts() {
+        vector<bool> visited(vertices, false);
+        int districts = 0;
+
+        for (int i = 0; i < vertices; ++i) {
+            if (!visited[i]) {
+                dfs(i, visited);
+                districts++;
+            }
+        }
+
+        return districts;
+    }
+
+private:
+    void dfs(int v, vector<bool>& visited) {
+        visited[v] = true;
+
+        for (int neighbor : adjList[v]) {
+            if (!visited[neighbor]) {
+                dfs(neighbor, visited);
+            }
+        }
+    }
+};
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int X, Y;
+        cin >> X >> Y;
+
+        Graph graph(X);
+
+        for (int i = 0; i < Y; ++i) {
+            int x, y;
+            cin >> x >> y;
+            graph.addEdge(x, y);
+        }
+
+        int districts = graph.countDistricts();
+        cout << districts << " ";
+    }
+
+    return 0;
+}
+
