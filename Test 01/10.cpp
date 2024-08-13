@@ -29,7 +29,7 @@
 #include<string>
 using namespace std;
 
-//This is my colution
+//This is my solution
 int main() {
 
 	string word;
@@ -55,7 +55,7 @@ int main() {
   }
 }
 
-//This si the solution from our teaching assistant
+//This is the solution from our teaching assistant
 
 string s;
 int main() {
