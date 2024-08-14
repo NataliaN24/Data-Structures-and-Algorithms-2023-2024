@@ -199,7 +199,7 @@ void SinglyLinkedList::remove(int pos)
     }
 }
 
-
+---------------------------------------------------FIRST SOLUTION-----------------------------------------
 void SinglyLinkedList::removeAll(int X)
 {
     Node*current=head;
@@ -230,6 +230,40 @@ void SinglyLinkedList::removeAll(int X)
         prev=current;
         current=current->next;
         }
-        
+        ---------------------------------SECOND SOLUTION-----------------------------------------------------
+            void SinglyLinkedList::removeAll(int X)
+{
+    while (head != nullptr && head->value == X) {
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+        size--;
+    }
+    
+    Node* current = head;
+    Node* prev = nullptr;
+
+    while (current != nullptr) {
+        if (current->value == X) {
+            Node* temp = current;
+            current = current->next;
+            if (prev != nullptr) {
+                prev->next = current;
+            }
+            delete temp;
+            size--;
+        } else {
+            prev = current;
+            current = current->next;
+        }
+    }
+
+    if (prev != nullptr && prev->next == nullptr) {
+        tail = prev;
+    } else if (head == nullptr) {
+        tail = nullptr;
+    }
+}
+
     }
 }
