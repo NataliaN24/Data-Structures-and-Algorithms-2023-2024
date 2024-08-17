@@ -90,7 +90,7 @@ public:
     bool hasNegativeCycle()
     {
         for (int i = 0; i < graph.vertices(); i++) {
-            for (WeightedEdge e : graph.adj(v)) {
+            for (WeightedEdge e : graph.adj(i)) {
                 if (relax(e)) {
                     return true;
                 }
