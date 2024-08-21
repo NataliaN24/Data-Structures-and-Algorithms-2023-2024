@@ -11,7 +11,7 @@ This repository contains solutions and explanations for common linked list probl
 - **Input**: `1 -> 1 -> 2`  
 - **Output**: `1 -> 2`  
 
-**Solution**: [Remove Duplicates from Sorted Linked List](./remove-duplicates-sorted-list.cpp)
+**Solution**: [Remove Duplicates from Unsorted Linked List](./remove-duplicates-sorted-list.cpp)
 
 ---
 
@@ -22,7 +22,7 @@ This repository contains solutions and explanations for common linked list probl
 - **Input**: `4 -> 3 -> 4 -> 2 -> 1 -> 2`  
 - **Output**: `4 -> 3 -> 2 -> 1`  
 
-**Solution**: [Remove Duplicates from Unsorted Linked List](./remove-duplicates-unsorted-list.cpp)
+**Solution**: Remove Duplicates from Unsorted Linked List
 
 ---
 
