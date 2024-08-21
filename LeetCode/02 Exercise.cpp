@@ -107,3 +107,31 @@ int main() {
 
 	return 0;
 }
+-------------------------------ANOTHER SOLUTION-------------------------------------------------------------------------------------------------------
+	class Solution {
+public:
+	ListNode* removeDuplicates(ListNode* head) {
+		if (head == nullptr) {
+			return nullptr;
+		}
+		std::unordered_set<int>seenValues;
+		ListNode* current = head;
+		ListNode* prev = nullptr;
+		while (current != nullptr) {
+			if (seenValues.find(current->val) != seenValues.end()) {
+				ListNode* temp = current;
+				prev->next = current->next;
+				current = current->next;
+				delete temp;
+			}
+			else {
+				seenValues.insert(current->val);
+				prev = current;
+				current = current->next;
+			}
+			
+		}
+		return head;
+	}
+
+};
