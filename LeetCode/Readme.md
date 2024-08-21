@@ -93,6 +93,4 @@ This repository contains solutions and explanations for common linked list probl
 
 ---
 
-Feel free to clone this repository and explore the solutions provided for each exercise. If you have any questions or suggestions, please open an issue or pull request.
 
-Happy coding!
