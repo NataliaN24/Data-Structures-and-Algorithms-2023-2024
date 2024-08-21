@@ -11,7 +11,7 @@ This repository contains solutions and explanations for common linked list probl
 - **Input**: `1 -> 1 -> 2`  
 - **Output**: `1 -> 2`  
 
-**Solution**: [Remove Duplicates from Unsorted Linked List](./remove-duplicates-sorted-list.cpp)
+**Solution**: [Remove Duplicates from Sorted Linked List]()
 
 ---
 
@@ -81,7 +81,8 @@ This repository contains solutions and explanations for common linked list probl
 
 ---
 
-### **08. Swapping Elements in Linked List**
+### **08. Swapping Nodes in Linked List**
+**Problem**: [Swapping Nodes](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)  
 **Description**: Swap adjacent nodes in a linked list in pairs. For example, if the list is `1 -> 2 -> 3 -> 4`, it should be transformed into `2 -> 1 -> 4 -> 3`.
 
 **Example**:
