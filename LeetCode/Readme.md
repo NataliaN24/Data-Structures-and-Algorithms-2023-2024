@@ -91,6 +91,8 @@ This repository contains solutions and explanations for common linked list probl
 
 **Solution**: [Swapping Elements in Linked List](./swap-elements-list.cpp)
 
----
+
+### **09. Merge Nodes in between 0**
+**Problem**: [Merge](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
 
 
