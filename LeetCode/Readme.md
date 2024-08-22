@@ -101,4 +101,5 @@ This repository contains solutions and explanations for common linked list probl
 12 odd even linked list --- https://leetcode.com/problems/odd-even-linked-list/
 
 13 hash table distribute candies ---https://leetcode.com/problems/distribute-candies/
+14 find all numebrs dissapeard--  https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
