@@ -98,5 +98,7 @@ This repository contains solutions and explanations for common linked list probl
 **Problem**: [cycle](https://leetcode.com/problems/linked-list-cycle/)  
 ### **11.Convert sorted list to BST**
 **Problem**: [bst](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)  
+12 odd even linked list --- https://leetcode.com/problems/odd-even-linked-list/
 
+13 hash table distribute candies ---https://leetcode.com/problems/distribute-candies/
 
