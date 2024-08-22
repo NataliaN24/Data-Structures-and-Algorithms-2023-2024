@@ -102,4 +102,5 @@ This repository contains solutions and explanations for common linked list probl
 
 13 hash table distribute candies ---https://leetcode.com/problems/distribute-candies/
 14 find all numebrs dissapeard--  https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+15 group the people given the group they belong to    https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 
