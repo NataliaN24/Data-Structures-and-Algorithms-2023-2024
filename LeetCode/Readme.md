@@ -104,3 +104,4 @@ This repository contains solutions and explanations for common linked list probl
 14 find all numebrs dissapeard--  https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 15 group the people given the group they belong to    https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 16 unique BST   https://leetcode.com/problems/unique-binary-search-trees/
+17 lowest commong ancestor   https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
