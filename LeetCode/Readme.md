@@ -96,5 +96,7 @@ This repository contains solutions and explanations for common linked list probl
 **Problem**: [Merge](https://leetcode.com/problems/merge-nodes-in-between-zeros/)  
 ### **10.Linked list cycle**
 **Problem**: [cycle](https://leetcode.com/problems/linked-list-cycle/)  
+### **11.Convert sorted list to BST**
+**Problem**: [bst](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)  
 
 
