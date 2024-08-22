@@ -106,4 +106,5 @@ This repository contains solutions and explanations for common linked list probl
 16 unique BST   https://leetcode.com/problems/unique-binary-search-trees/
 17 lowest commong ancestor   https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 18 two sum in bst  https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+19 two bst in one https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 
