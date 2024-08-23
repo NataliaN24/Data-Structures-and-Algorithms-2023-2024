@@ -103,6 +103,7 @@ This repository contains solutions and explanations for common linked list probl
 13 hash table distribute candies ---https://leetcode.com/problems/distribute-candies/
 14 find all numebrs dissapeard--  https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 15 group the people given the group they belong to    https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
+
 16 unique BST   https://leetcode.com/problems/unique-binary-search-trees/
 17 lowest commong ancestor   https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 18 two sum in bst  https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
@@ -113,4 +114,7 @@ This repository contains solutions and explanations for common linked list probl
 23 Balance a BST https://leetcode.com/problems/balance-a-binary-search-tree/
 24 RECOVER A BST  https://leetcode.com/problems/recover-binary-search-tree/
 25 kth smallest element in bst https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+26 find mode in BST  https://leetcode.com/problems/find-mode-in-binary-search-tree/submissions/1365543733/
+27 Connstruct BST FROM PREORDER TRASVERSAL https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/
+
 
