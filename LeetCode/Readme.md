@@ -117,5 +117,7 @@ This repository contains solutions and explanations for common linked list probl
 26 find mode in BST  https://leetcode.com/problems/find-mode-in-binary-search-tree/submissions/1365543733/
 27 Connstruct BST FROM PREORDER TRASVERSAL https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/
 28 MINIMUM ABSOLUTE DIFFERENCE https://leetcode.com/problems/minimum-absolute-difference-in-bst/
+29 convert sorted array to BST https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+
 
 
