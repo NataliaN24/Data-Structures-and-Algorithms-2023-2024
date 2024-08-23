@@ -126,4 +126,5 @@ This repository contains solutions and explanations for common linked list probl
 35 sort characters by frequence https://leetcode.com/problems/sort-characters-by-frequency/
 36 distant barcodes   https://leetcode.com/problems/distant-barcodes/
 37 longest happy string https://leetcode.com/problems/longest-happy-string/
+38 find subsequence of length k  https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/
 
