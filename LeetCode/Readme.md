@@ -124,4 +124,5 @@ This repository contains solutions and explanations for common linked list probl
 33 Network delay time https://leetcode.com/problems/network-delay-time/
 34 kth largest element  https://leetcode.com/problems/kth-largest-element-in-an-array/
 35 sort characters by frequence https://leetcode.com/problems/sort-characters-by-frequency/
+36 distant barcodes   https://leetcode.com/problems/distant-barcodes/
 
