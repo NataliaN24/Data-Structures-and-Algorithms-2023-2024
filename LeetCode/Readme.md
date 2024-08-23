@@ -110,4 +110,5 @@ This repository contains solutions and explanations for common linked list probl
 20 Validate BST  https://leetcode.com/problems/validate-binary-search-tree/
 21 SEARCH IN BST https://leetcode.com/problems/search-in-a-binary-search-tree/
 22 BST TO GREATER SUM https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+23 Balance a BST https://leetcode.com/problems/balance-a-binary-search-tree/
 
