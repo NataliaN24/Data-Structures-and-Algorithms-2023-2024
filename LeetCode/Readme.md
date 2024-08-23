@@ -120,6 +120,6 @@ This repository contains solutions and explanations for common linked list probl
 29 convert sorted array to BST https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 30 Trim a BST https://leetcode.com/problems/trim-a-binary-search-tree/description/
 31 BST ITERATOR   https://leetcode.com/problems/binary-search-tree-iterator/
-
+32 Relative ranks https://leetcode.com/problems/relative-ranks/description/
 
 
