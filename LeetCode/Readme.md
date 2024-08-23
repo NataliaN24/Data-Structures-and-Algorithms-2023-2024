@@ -121,5 +121,5 @@ This repository contains solutions and explanations for common linked list probl
 30 Trim a BST https://leetcode.com/problems/trim-a-binary-search-tree/description/
 31 BST ITERATOR   https://leetcode.com/problems/binary-search-tree-iterator/
 32 Relative ranks https://leetcode.com/problems/relative-ranks/description/
-
+33 Network delay time https://leetcode.com/problems/network-delay-time/
 
