@@ -125,4 +125,5 @@ This repository contains solutions and explanations for common linked list probl
 34 kth largest element  https://leetcode.com/problems/kth-largest-element-in-an-array/
 35 sort characters by frequence https://leetcode.com/problems/sort-characters-by-frequency/
 36 distant barcodes   https://leetcode.com/problems/distant-barcodes/
+37 longest happy string https://leetcode.com/problems/longest-happy-string/
 
