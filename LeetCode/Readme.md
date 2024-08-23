@@ -128,4 +128,5 @@ This repository contains solutions and explanations for common linked list probl
 37 longest happy string https://leetcode.com/problems/longest-happy-string/
 38 find subsequence of length k  https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/
 39 take gifts from the richest pile  https://leetcode.com/problems/take-gifts-from-the-richest-pile/
+40 minimum number game https://leetcode.com/problems/minimum-number-game/
 
