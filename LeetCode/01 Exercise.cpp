@@ -15,21 +15,16 @@ public:
             return nullptr;
         }
         ListNode*current=head;
-        ListNode*prev=nullptr;
-        while(current!=nullptr){
-            prev=current;
+      
+        while(current!=nullptr && current->next!=nullptr){
+           if(current->val==current->next->val){
+            ListNode*temp=current->next;
+           current->next=current->next->next;
+           delete temp;
+           }
+           else{
             current=current->next;
-            if(current!=nullptr &&current->val==prev->val){
-                ListNode*temp=current;
-                if(current->next!=nullptr){
-                current=current->next;
-                prev->next=current;
-                delete temp;
-                }
-                else{
-                    prev->next=nullptr;
-                }
-            }
+           }
 
         }
         return head;
