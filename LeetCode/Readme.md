@@ -266,3 +266,10 @@ Welcome to the Coding Exercises repository! This collection features solutions a
 **Description**: Play a game where you perform operations to minimize a number based on given rules.
 
 ---
+41 add two numbers :https://leetcode.com/problems/add-two-numbers/submissions/1366814743/
+---
+42 remove nth node from the end of linked list https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
+43 merge two sorted linked lists   https://leetcode.com/problems/merge-two-sorted-lists/
+44 merge k sorted linked lists https://leetcode.com/problems/merge-k-sorted-lists/
+45 swap nodes in pairs: https://leetcode.com/problems/swap-nodes-in-pairs/
+46 remove duplicates all in linked list https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
