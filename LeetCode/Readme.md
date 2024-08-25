@@ -273,3 +273,7 @@ Welcome to the Coding Exercises repository! This collection features solutions a
 44 merge k sorted linked lists https://leetcode.com/problems/merge-k-sorted-lists/
 45 swap nodes in pairs: https://leetcode.com/problems/swap-nodes-in-pairs/
 46 remove duplicates all in linked list https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+47 Baseball game using stack https://leetcode.com/problems/baseball-game/description/
+48 Score of parenthesis using stack https://leetcode.com/problems/score-of-parentheses/description/
+49 implemet stack using queues https://leetcode.com/problems/implement-stack-using-queues/
+50  time needed to buy ticket queue  https://leetcode.com/problems/time-needed-to-buy-tickets/description/
