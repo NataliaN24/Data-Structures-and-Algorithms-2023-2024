@@ -37,6 +37,8 @@ Explore implementations of balanced tree structures.
 ### 8. 🏔️ [Heap](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/08.Heap)
 Check out heap data structure implementations.
 
+**Min and Max Implementation can be found here: [🔗 Min and Max Heap](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/08.Heap/Min%20and%20Max%20Heap%20Implementation)**
+
 ### 9. 🔒 [Hash Table](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/09.Hash%20Table)
 Find various implementations of hash tables, including:
 
