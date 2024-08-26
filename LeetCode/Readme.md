@@ -265,27 +265,176 @@ Welcome to the Coding Exercises repository! This collection features solutions a
 **Problem**: [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/)  
 **Description**: Play a game where you perform operations to minimize a number based on given rules.
 
+## 🔗 Linked List Exercises
+
+### **41. Add Two Numbers**
+**Problem**: [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/submissions/1366814743/)  
+**Description**: Add two numbers represented by linked lists, where each node contains a single digit.  
+**Example**:
+- **Input**: `(2 -> 4 -> 3) + (5 -> 6 -> 4)`  
+- **Output**: `7 -> 0 -> 8`  
 ---
-41 add two numbers :https://leetcode.com/problems/add-two-numbers/submissions/1366814743/
+
+### **42. Remove Nth Node from the End of Linked List**
+**Problem**: [Remove Nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)  
+**Description**: Remove the nth node from the end of a linked list.  
+**Example**:
+- **Input**: `1 -> 2 -> 3 -> 4 -> 5`, `n = 2`  
+- **Output**: `1 -> 2 -> 3 -> 5`  
 ---
-42 remove nth node from the end of linked list https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
-43 merge two sorted linked lists   https://leetcode.com/problems/merge-two-sorted-lists/
-44 merge k sorted linked lists https://leetcode.com/problems/merge-k-sorted-lists/
-45 swap nodes in pairs: https://leetcode.com/problems/swap-nodes-in-pairs/
-46 remove duplicates all in linked list https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
-47 Baseball game using stack https://leetcode.com/problems/baseball-game/description/
-48 Score of parenthesis using stack https://leetcode.com/problems/score-of-parentheses/description/
-49 implemet stack using queues https://leetcode.com/problems/implement-stack-using-queues/
-50  time needed to buy ticket queue  https://leetcode.com/problems/time-needed-to-buy-tickets/description/
-51 merge intervals https://leetcode.com/problems/merge-intervals/description/
-52 sort colors https://leetcode.com/problems/sort-colors/description/
-53 Minimize Maximum pair sum https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/
-54 Insertion sort list  https://leetcode.com/problems/insertion-sort-list/description/
-55 delete the middle node of linked list  https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
-56 Design hash set using list https://leetcode.com/problems/design-hashset/description/
-57 Steps to make array non decreasing https://leetcode.com/problems/steps-to-make-array-non-decreasing/description/
-58 Delete nodes in linked list presetn in array https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/
-59 DESIGN Browser history using doubly linked list https://leetcode.com/problems/design-browser-history/description/
-60 Contains duplicate using unordered map  https://leetcode.com/problems/contains-duplicate-ii/description/
-61 longest substring with at least k repeating characters https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/
-62 Find the town judge https://leetcode.com/problems/find-the-town-judge/description/
+
+### **43. Merge Two Sorted Linked Lists**
+**Problem**: [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
+**Description**: Merge two sorted linked lists and return it as a sorted list.  
+**Example**:
+- **Input**: `1 -> 2 -> 4`, `1 -> 3 -> 4`  
+- **Output**: `1 -> 1 -> 2 -> 3 -> 4 -> 4`  
+---
+
+### **44. Merge K Sorted Linked Lists**
+**Problem**: [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  
+**Description**: Merge k sorted linked lists and return it as one sorted list.  
+**Example**:
+- **Input**: `[[1 -> 4 -> 5], [1 -> 3 -> 4], [2 -> 6]]`  
+- **Output**: `1 -> 1 -> 2 -> 3 -> 4 -> 4 -> 5 -> 6`  
+---
+
+### **45. Swap Nodes in Pairs**
+**Problem**: [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  
+**Description**: Swap every two adjacent nodes in a linked list.  
+**Example**:
+- **Input**: `1 -> 2 -> 3 -> 4`  
+- **Output**: `2 -> 1 -> 4 -> 3`  
+---
+
+### **46. Remove Duplicates from Sorted List II**
+**Problem**: [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  
+**Description**: Remove all nodes that have duplicate numbers, leaving only distinct numbers from the original list.  
+**Example**:
+- **Input**: `1 -> 2 -> 3 -> 3 -> 4 -> 4 -> 5`  
+- **Output**: `1 -> 2 -> 5`  
+---
+## 🔗 Stack Exercises
+
+### **47. Baseball Game**
+**Problem**: [Baseball Game](https://leetcode.com/problems/baseball-game/description/)  
+**Description**: Evaluate the value of an arithmetic expression in Reverse Polish Notation using a stack.  
+**Example**:
+- **Input**: `["5","2","C","D","+"]`  
+- **Output**: `30`  
+---
+
+### **48. Score of Parentheses**
+**Problem**: [Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/description/)  
+**Description**: Compute the score of a balanced parentheses string using a stack.  
+**Example**:
+- **Input**: `"(()(()))"`  
+- **Output**: `6`  
+---
+
+### **49. Implement Stack using Queues**
+**Problem**: [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  
+**Description**: Implement a last-in-first-out (LIFO) stack using only two queues.  
+---
+
+## 🔗 Queue Exercises
+
+### **50. Time Needed to Buy Tickets**
+**Problem**: [Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/description/)  
+**Description**: Calculate the time required for all people in a queue to buy tickets.  
+**Example**:
+- **Input**: `[2,3,2], k = 2`  
+- **Output**: `6`  
+---
+
+### **51. Merge Intervals**
+**Problem**: [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)  
+**Description**: Merge all overlapping intervals and return an array of the non-overlapping intervals.  
+**Example**:
+- **Input**: `[[1,3],[2,6],[8,10],[15,18]]`  
+- **Output**: `[[1,6],[8,10],[15,18]]`  
+---
+
+### **52. Sort Colors**
+**Problem**: [Sort Colors](https://leetcode.com/problems/sort-colors/description/)  
+**Description**: Sort an array with values 0, 1, and 2 (representing colors).  
+**Example**:
+- **Input**: `[2,0,2,1,1,0]`  
+- **Output**: `[0,0,1,1,2,2]`  
+---
+
+### **53. Minimize Maximum Pair Sum**
+**Problem**: [Minimize Maximum Pair Sum](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/)  
+**Description**: Minimize the maximum pair sum in an array by pairing elements wisely.  
+**Example**:
+- **Input**: `[3,5,2,3]`  
+- **Output**: `7`  
+---
+## 🔗 Linked List Exercises 
+
+### **54. Insertion Sort List**
+**Problem**: [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)  
+**Description**: Sort a linked list using insertion sort.  
+**Example**:
+- **Input**: `4 -> 2 -> 1 -> 3`  
+- **Output**: `1 -> 2 -> 3 -> 4`  
+---
+
+### **55. Delete the Middle Node of Linked List**
+**Problem**: [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)  
+**Description**: Delete the middle node of a linked list.  
+**Example**:
+- **Input**: `1 -> 3 -> 4 -> 7 -> 1 -> 2 -> 6`  
+- **Output**: `1 -> 3 -> 4 -> 1 -> 2 -> 6`  
+---
+
+### **56. Design Hash Set using List**
+**Problem**: [Design HashSet](https://leetcode.com/problems/design-hashset/description/)  
+**Description**: Implement a HashSet using a list.  
+---
+
+### **57. Steps to Make Array Non-Decreasing**
+**Problem**: [Steps to Make Array Non-Decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/description/)  
+**Description**: Calculate the minimum steps to make an array non-decreasing.  
+**Example**:
+- **Input**: `[3,5,2,6]`  
+- **Output**: `2`  
+---
+
+### **58. Delete Nodes in Linked List Present in Array**
+**Problem**: [Delete Nodes from Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)  
+**Description**: Delete nodes in a linked list that are present in a given array.  
+**Example**:
+- **Input**: `1 -> 2 -> 3 -> 4`, `arr = [2, 3]`  
+- **Output**: `1 -> 4`  
+---
+
+### **59. Design Browser History using Doubly Linked List**
+**Problem**: [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)  
+**Description**: Implement browser history using a doubly linked list.  
+---
+## 🔗 Hash Map Exercises
+
+### **60. Contains Duplicate using Unordered Map**
+**Problem**: [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)  
+**Description**: Check if there are duplicates in an array using an unordered map.  
+**Example**:
+- **Input**: `[1,2,3,1]`, `k = 3`  
+- **Output**: `true`  
+---
+
+### **61. Longest Substring with At Least K Repeating Characters**
+**Problem**: [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/)  
+**Description**: Find the longest substring where each character appears at least k times.  
+**Example**:
+- **Input**: `"aaabb"`, `k = 3`  
+- **Output**: `3`  
+---
+
+### **62. Find the Town Judge**
+**Problem**: [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)  
+**Description**: Determine who the town judge is based on trust relationships.  
+**Example**:
+- **Input**: `n = 3, trust = [[1,3],[2,3]]`  
+- **Output**: `3`  
+---
