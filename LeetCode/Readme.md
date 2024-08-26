@@ -277,3 +277,15 @@ Welcome to the Coding Exercises repository! This collection features solutions a
 48 Score of parenthesis using stack https://leetcode.com/problems/score-of-parentheses/description/
 49 implemet stack using queues https://leetcode.com/problems/implement-stack-using-queues/
 50  time needed to buy ticket queue  https://leetcode.com/problems/time-needed-to-buy-tickets/description/
+51 merge intervals https://leetcode.com/problems/merge-intervals/description/
+52 sort colors https://leetcode.com/problems/sort-colors/description/
+53 Minimize Maximum pair sum https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/
+54 Insertion sort list  https://leetcode.com/problems/insertion-sort-list/description/
+55 delete the middle node of linked list  https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
+56 Design hash set using list https://leetcode.com/problems/design-hashset/description/
+57 Steps to make array non decreasing https://leetcode.com/problems/steps-to-make-array-non-decreasing/description/
+58 Delete nodes in linked list presetn in array https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/
+59 DESIGN Browser history using doubly linked list https://leetcode.com/problems/design-browser-history/description/
+60 Contains duplicate using unordered map  https://leetcode.com/problems/contains-duplicate-ii/description/
+61 longest substring with at least k repeating characters https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/
+62 Find the town judge https://leetcode.com/problems/find-the-town-judge/description/
