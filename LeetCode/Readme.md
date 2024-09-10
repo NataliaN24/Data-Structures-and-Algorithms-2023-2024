@@ -329,12 +329,13 @@ Welcome to the Coding Exercises repository! This collection features solutions a
 **Description**: Compute the score of a balanced parentheses string using a stack.  
 **Example**:
 - **Input**: `"(()(()))"`  
-- **Output**: `6`  
+- **Output**: `6`
+  
 ---
-
-### **49. Implement Stack using Queues**
+### **49. Score of Parentheses**
 **Problem**: [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  
-**Description**: Implement a last-in-first-out (LIFO) stack using only two queues.  
+**Description**: Implement a last-in-first-out (LIFO) stack using only two queues.
+
 ---
 
 ## 🔗 Queue Exercises
@@ -390,7 +391,8 @@ Welcome to the Coding Exercises repository! This collection features solutions a
 
 ### **56. Design Hash Set using List**
 **Problem**: [Design HashSet](https://leetcode.com/problems/design-hashset/description/)  
-**Description**: Implement a HashSet using a list.  
+**Description**: Implement a HashSet using a list. 
+
 ---
 
 ### **57. Steps to Make Array Non-Decreasing**
