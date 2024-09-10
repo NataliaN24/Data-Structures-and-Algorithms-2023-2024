@@ -85,5 +85,5 @@ Explore exercises and implementations related to Eulerian and Hamiltonian graphs
 ## 🧪 Final exam  
 - [EXAMS](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/Final%20Exam)
   
-- ## 🧪 LeetCode tasks solved
+- ## 🧪 LeetCode Tasks Solved
 - **LEET CODE:**[Task Solved](https://github.com/NataliaN24/Data-Structures-and-Algorithms-2023-2024/tree/main/LeetCode)
